@@ -1,0 +1,60 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  DEFAULTS
+ *  HEADINGS
+ *  NOTIFICATIONS
+ */
+
+/**
+ *  For use with Open Iconic - https://useiconic.com/open/
+ */
+
+
+
+
+
+/*------------------------------------*\
+    !DEFAULTS
+\*------------------------------------*/
+
+.iconic{
+    size: $icon-default-size;
+    fill: $icon-default-color;
+}
+
+
+
+
+
+/*------------------------------------*\
+    !HEADINGS
+\*------------------------------------*/
+
+h1 .iconic,
+.h1 .iconic,
+h2 .iconic,
+.h2 .iconic,
+h3 .iconic,
+.h3 .iconic,
+h4 .iconic,
+.h4 .iconic,
+h5 .iconic,
+.h5 .iconic,
+h6 .iconic,
+.h6 .iconic{
+    vertical-align: $icon-header-vertical-align;
+}
+
+
+
+
+
+/*------------------------------------*\
+    !NOTIFICATIONS
+\*------------------------------------*/
+
+.notification-close-btn .iconic{
+    size: $icon-close-notification-size;
+}
