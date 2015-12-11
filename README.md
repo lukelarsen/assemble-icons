@@ -1,13 +1,13 @@
 [Assemble]:                http://assemblecss.com
 [Assemble Base]:           https://github.com/lukelarsen/assemble-base
-[useiconic.com]:           https://useiconic.com/open
+[useiconic.com]:           https://useiconic.com
 
 # Assemble Icons
 Assemble Icons is a component of the [Assemble] CSS Framework. It will give you a solid base for using svg icons in your project. It has some default styles that can easily be overridden so you can add your own look.
 
 ## Requirements
 - Assemble Icons requires [Assemble Base].
-- The iconic.js found over at [useiconic.com].
+- The iconic.js in this repo. To get the full version of Iconic and get more details visit [useiconic.com].
 
 ## Installation
 npm install assemble-icons --save-dev
