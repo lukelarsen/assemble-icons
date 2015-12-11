@@ -17,12 +17,12 @@ npm install assemble-icons --save-dev
 ```js
 var gulp = require('gulp');
 var postcss = require('gulp-postcss');
-var assembleCore = require('assemble-core');
+var assembleBase = require('assemble-base');
 var assembleIcons = require('assemble-icons');
 
 gulp.task('css', function () {
     var processors = [
-        assembleCore,
+        assembleBase,
         assembleIcons
     ];
     return gulp.src('./src/*.css')
