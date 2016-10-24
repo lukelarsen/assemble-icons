@@ -7,10 +7,6 @@
  *  NOTIFICATIONS
  */
 
-/**
- *  For use with Open Iconic - https://useiconic.com/open/
- */
-
 
 
 
@@ -19,7 +15,7 @@
     !DEFAULTS
 \*------------------------------------*/
 
-.iconic{
+.icon{
     size: $icon-default-size;
     fill: $icon-default-color;
 }
@@ -32,18 +28,18 @@
     !HEADINGS
 \*------------------------------------*/
 
-h1 .iconic,
-.h1 .iconic,
-h2 .iconic,
-.h2 .iconic,
-h3 .iconic,
-.h3 .iconic,
-h4 .iconic,
-.h4 .iconic,
-h5 .iconic,
-.h5 .iconic,
-h6 .iconic,
-.h6 .iconic{
+h1 .icon,
+.h1 .icon,
+h2 .icon,
+.h2 .icon,
+h3 .icon,
+.h3 .icon,
+h4 .icon,
+.h4 .icon,
+h5 .icon,
+.h5 .icon,
+h6 .icon,
+.h6 .icon{
     vertical-align: $icon-header-vertical-align;
 }
 
@@ -55,6 +51,6 @@ h6 .iconic,
     !NOTIFICATIONS
 \*------------------------------------*/
 
-.notification-close-btn .iconic{
+.notification-close-btn .icon{
     size: $icon-close-notification-size;
 }
